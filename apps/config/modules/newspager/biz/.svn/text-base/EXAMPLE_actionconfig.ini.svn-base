@@ -1,0 +1,4 @@
+[Pager]
+FC.ActionNamespace = "modules::newspager::biz::actions"
+FC.ActionClass = "newspagerAction"
+FC.InputParams = ""

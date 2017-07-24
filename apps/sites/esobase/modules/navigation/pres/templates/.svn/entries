@@ -1,0 +1,35 @@
+10
+
+dir
+0
+https://adventurephpfra.svn.sourceforge.net/svnroot/adventurephpfra/branches/php5/1.15/sites/esobase/modules/navigation/pres/templates
+https://adventurephpfra.svn.sourceforge.net/svnroot/adventurephpfra
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+274e9e32-1151-0410-b532-f3256765c3a4
+
+navigation.html
+file
+
+
+
+add
+

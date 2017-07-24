@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/modules/guestbook2009/pres/controller/admin
+END
+backend_base_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/modules/guestbook2009/pres/controller/admin/backend_base_controller.php
+END
+delete_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/modules/guestbook2009/pres/controller/admin/delete_controller.php
+END
+logout_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/modules/guestbook2009/pres/controller/admin/logout_controller.php
+END
+edit_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/modules/guestbook2009/pres/controller/admin/edit_controller.php
+END

@@ -1,0 +1,1 @@
+<@controller namespace="modules::guestbook2009::pres::controller::admin" class="logout_controller" @>

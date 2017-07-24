@@ -1,0 +1,35 @@
+<@controller namespace="sites::esobase::modules::addEintrag::pres::documentcontroller" class="addEintragController" @>
+<h3>Eintragung</h3>
+<core:addtaglib namespace="tools::form::taglib" prefix="html" class="form" />
+
+<html:form name="klasse">
+    Alter:
+    <form:text name="alter" size="2" />
+    Klasse:
+    Geschlecht:
+    <form:select name="geschlecht" size="2">
+        <select:option value="M">Männlich</select:option>
+        <select:option value="W">Weiblich</select:option>
+    </form:select>
+    Häufigkeit:
+    <form:multiselect name="haeufigkeit" size="6">
+        <select:option value="taeglich" selected="false">Täglich</select:option>
+        <select:option value="mehrf_woche" selected="false">Mehrfach pro Woche</select:option>
+        <select:option value="nur_we" selected="false">Nur am Wochenende</select:option>
+        <select:option value="mehrf_monat" selected="false">Mehrfach im Monat</select:option>
+        <select:option value="selten" selected="false">Selten</select:option>
+        <select:option value="nie" selected="false">Nie</select:option>
+    </form:multiselect>
+    Dauer (in Stunden):
+    <form:multiselect name="dauer">
+        <select:option value="kleiner1" selected="false">Weniger als 1</select:option>
+        <select:option value="1bis3" selected="false">1 bis 3</select:option>
+        <select:option value="3bis5" selected="false">3 bs 5</select:option>
+        <select:option value="groesser5" selected="false">Mehr als 5</select:option>
+    </form:multiselect>
+    Genre:
+    <form:multiselect name="genre" size="6">
+        
+    </form:multiselect>
+    <form:button name="send" value="Eintragen" />
+</html:form>

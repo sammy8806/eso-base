@@ -1,0 +1,49 @@
+<@controller
+   namespace="modules::usermanagement::pres::documentcontroller::role"
+   class="umgt_add_user_to_roles_controller"
+@>
+<core:addtaglib namespace="tools::form::taglib" prefix="html" class="form"/>
+<h3><html:getstring
+       namespace="modules::usermanagement::pres"
+       config="labels.ini"
+       entry="frontend.user.add-user-to-role.headline"/></h3>
+<html:form name="Roles" method="post">
+   <form:addvalidator
+         class="MultiSelectFieldValidator"
+         button="Assign"
+         control="Roles"
+         />
+   <p>
+      <form:getstring
+             namespace="modules::usermanagement::pres"
+             config="labels.ini"
+             entry="frontend.user.add-user-to-role.intro.text"/>
+   </p>
+   <p>
+      <form:multiselect name="Roles" size="4"/>
+   </p>
+   <p>
+      <form:button name="Assign">
+         <button:getstring
+                namespace="modules::usermanagement::pres"
+                config="labels.ini"
+                entry="frontend.user.add-user-to-role.button.label"/>
+      </form:button>
+   </p>
+</html:form>
+<html:template name="NoMoreRoles">
+   <p>
+      <template:getstring
+            name="message-1"
+            namespace="modules::usermanagement::pres"
+            config="labels.ini"
+            entry="frontend.user.add-user-to-role.message.1"/>
+   </p>
+   <p>
+      <template:getstring
+            name="message-2"
+            namespace="modules::usermanagement::pres"
+            config="labels.ini"
+            entry="frontend.user.add-user-to-role.message.2"/>
+   </p>
+</html:template>

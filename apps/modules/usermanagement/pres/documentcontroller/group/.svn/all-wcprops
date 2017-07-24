@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/adventurephpfra/!svn/ver/1627/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/group
+END
+umgt_group_delete_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/adventurephpfra/!svn/ver/1621/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/group/umgt_group_delete_controller.php
+END
+umgt_userrem_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/group/umgt_userrem_controller.php
+END
+umgt_group_edit_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/group/umgt_group_edit_controller.php
+END
+umgt_group_add_user_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svnroot/adventurephpfra/!svn/ver/1621/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/group/umgt_group_add_user_controller.php
+END
+umgt_group_remove_role_from_groups_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svnroot/adventurephpfra/!svn/ver/1627/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/group/umgt_group_remove_role_from_groups_controller.php
+END
+umgt_group_add_user_to_groups_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/group/umgt_group_add_user_to_groups_controller.php
+END
+umgt_useradd_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/group/umgt_useradd_controller.php
+END
+umgt_group_details_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/adventurephpfra/!svn/ver/1621/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/group/umgt_group_details_controller.php
+END
+umgt_group_list_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/adventurephpfra/!svn/ver/1581/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/group/umgt_group_list_controller.php
+END
+umgt_group_add_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/group/umgt_group_add_controller.php
+END
+umgt_group_add_role_to_groups_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svnroot/adventurephpfra/!svn/ver/1627/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/group/umgt_group_add_role_to_groups_controller.php
+END
+umgt_group_remove_user_from_groups_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/group/umgt_group_remove_user_from_groups_controller.php
+END

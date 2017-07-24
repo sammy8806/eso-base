@@ -1,0 +1,69 @@
+<@controller
+   namespace="modules::usermanagement::pres::documentcontroller::role"
+   class="umgt_role_list_controller"
+@>
+<table class="vis-def">
+   <thead>
+      <tr>
+         <td>&nbsp;</td>
+         <td>Display name</td>
+         <td>Permission(s)</td>
+         <td>User(s)</td>
+         <td>Group(s)</td>
+         <td>Action</td>
+      </tr>
+   </thead>
+   <tbody>
+      <html:placeholder name="RoleList"/>
+   </tbody>
+</table>
+
+<html:template name="Role">
+   <template:addtaglib namespace="modules::usermanagement::pres::taglib" prefix="umgt" class="media"/>
+   <tr>
+      <td>
+         <umgt:media filename="role.png" alt="Role" title="Role"/>
+      </td>
+      <td>
+         <template:placeholder name="DisplayName"/>
+      </td>
+      <td>
+         <template:placeholder name="Permissions"/>
+      </td>
+      <td>
+         <template:placeholder name="Users"/>
+      </td>
+      <td>
+         <template:placeholder name="Groups"/>
+      </td>
+      <td class="actions">
+         <a href="<template:placeholder name="role_details" />" title="View role details">
+            <umgt:media filename="details.png" title="View role details"/>
+         </a>
+         <a href="<template:placeholder name="role_edit" />" title="Edit role">
+            <umgt:media filename="edit.png" title="Edit Role"/>
+         </a>
+         <a href="<template:placeholder name="role_delete" />" title="Delete role">
+            <umgt:media filename="delete.png" title="Delete role"/>
+         </a>
+         <a href="<template:placeholder name="AddPermissionToRole" />" title="Add permission to role">
+            <umgt:media filename="permission_add.png" title="Add permission to role"/>
+         </a>
+         <a href="<template:placeholder name="RemoveRoleFromPermission" />" title="Remove permission from role">
+            <umgt:media filename="permission_remove.png" title="Remove permission from role"/>
+         </a>
+         <a href="<template:placeholder name="AssignRoleToUser" />" title="Assign role to user">
+            <umgt:media filename="group_add_user.png" title="Assign role to user"/>
+         </a>
+         <a href="<template:placeholder name="DetachRoleFromUser" />" title="Detach role from user">
+            <umgt:media filename="group_remove_user.png" title="Detach role from user"/>
+         </a>
+         <a href="<template:placeholder name="AddGroupToRole" />" title="Add group to role">
+            <umgt:media filename="add_group.png" title="Add group to role"/>
+         </a>
+         <a href="<template:placeholder name="RemoveGroupFromRole" />" title="Remove group from role">
+            <umgt:media filename="remove_group.png" title="Remove group from role"/>
+         </a>
+      </td>
+   </tr>
+</html:template>

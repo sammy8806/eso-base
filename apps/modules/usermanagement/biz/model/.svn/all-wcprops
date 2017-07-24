@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/adventurephpfra/!svn/ver/1581/branches/php5/1.15/modules/usermanagement/biz/model
+END
+UmgtGroup.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/adventurephpfra/!svn/ver/1491/branches/php5/1.15/modules/usermanagement/biz/model/UmgtGroup.php
+END
+UmgtVisibilityDefinition.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/adventurephpfra/!svn/ver/1482/branches/php5/1.15/modules/usermanagement/biz/model/UmgtVisibilityDefinition.php
+END
+UmgtRole.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/adventurephpfra/!svn/ver/1491/branches/php5/1.15/modules/usermanagement/biz/model/UmgtRole.php
+END
+UmgtApplication.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/adventurephpfra/!svn/ver/1482/branches/php5/1.15/modules/usermanagement/biz/model/UmgtApplication.php
+END
+UmgtUser.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/adventurephpfra/!svn/ver/1581/branches/php5/1.15/modules/usermanagement/biz/model/UmgtUser.php
+END
+UmgtVisibilityDefinitionType.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svnroot/adventurephpfra/!svn/ver/1482/branches/php5/1.15/modules/usermanagement/biz/model/UmgtVisibilityDefinitionType.php
+END
+UmgtPermission.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/adventurephpfra/!svn/ver/1482/branches/php5/1.15/modules/usermanagement/biz/model/UmgtPermission.php
+END

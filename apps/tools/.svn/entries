@@ -1,0 +1,70 @@
+10
+
+dir
+1627
+https://adventurephpfra.svn.sourceforge.net/svnroot/adventurephpfra/branches/php5/1.15/tools
+https://adventurephpfra.svn.sourceforge.net/svnroot/adventurephpfra
+
+
+
+2012-01-22T16:17:37.485018Z
+1622
+christianachatz
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+274e9e32-1151-0410-b532-f3256765c3a4
+
+cache
+dir
+
+cookie
+dir
+
+datetime
+dir
+
+filesystem
+dir
+
+form
+dir
+
+html
+dir
+
+http
+dir
+
+image
+dir
+
+link
+dir
+
+mail
+dir
+
+media
+dir
+
+request
+dir
+
+string
+dir
+
+validator
+dir
+

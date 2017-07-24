@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/htmllist/taglib
+END
+list_taglib_definition.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/htmllist/taglib/list_taglib_definition.php
+END
+list_taglib_ordered.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/htmllist/taglib/list_taglib_ordered.php
+END
+list_taglib_elem_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/htmllist/taglib/list_taglib_elem_list.php
+END
+list_control.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/htmllist/taglib/list_control.php
+END
+list_taglib_elem_defdef.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/htmllist/taglib/list_taglib_elem_defdef.php
+END
+html_taglib_list.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/htmllist/taglib/html_taglib_list.php
+END
+list_taglib_unordered.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/htmllist/taglib/list_taglib_unordered.php
+END
+list_taglib_elem_defterm.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/htmllist/taglib/list_taglib_elem_defterm.php
+END

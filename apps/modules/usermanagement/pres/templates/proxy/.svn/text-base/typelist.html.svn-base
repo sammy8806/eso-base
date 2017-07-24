@@ -1,0 +1,37 @@
+<@controller
+   namespace="modules::usermanagement::pres::documentcontroller::proxy"
+   class="umgt_type_list_controller"
+@>
+<h3>Visibility definition types</h3>
+<p>
+   This lists shows all types of visibility definitions created for the current application.
+</p>
+<table class="vis-def">
+   <thead>
+      <tr>
+         <td>&nbsp;</td>
+         <td>Visibility type</td>
+         <td>Action</td>
+      </tr>
+   </thead>
+   <tbody>
+      <html:placeholder name="TypeList" />
+   </tbody>
+</table>
+<html:template name="Type">
+   <template:addtaglib namespace="modules::usermanagement::pres::taglib" prefix="umgt" class="media" />
+   <tr>
+      <td>
+         <umgt:media filename="visibility_def_type.png" title="Visibility definition type" />
+      </td>
+      <td><template:placeholder name="AppObjectName" /></td>
+      <td class="actions">
+         <a href="<template:placeholder name="type_edit" />" title="Edit visibility definition type">
+           <umgt:media filename="edit.png" title="Edit visibility definition type" />
+         </a>
+         <a href="<template:placeholder name="type_delete" />" title="Delete visibility definition type">
+           <umgt:media filename="delete.png" title="Delete visibility definition type" />
+         </a>
+      </td>
+   </tr>
+</html:template>

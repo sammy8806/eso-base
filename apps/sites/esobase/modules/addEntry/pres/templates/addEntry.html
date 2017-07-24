@@ -1,0 +1,25 @@
+<@controller namespace="sites::esobase::modules::addEntry::pres::documentcontroller" class="addEntryController" @>
+<h3>Eintragung</h3>
+<core:addtaglib namespace="tools::form::taglib" prefix="html" class="form" />
+
+<h4><a href="?page=addEntry&action=klasse">Klasse</a></h4>
+<html:form name="klasse">
+    Klasse: <form:text name="Klasse" />
+    Lehrer: <form:text name="Lehrer" />
+    Raum: <form:text name="Raum" />
+    <form:button name="send" value="Eintragen" />
+</html:form>
+
+<h4><a href="?page=addEntry&action=raum">Raum</a></h4>
+<html:form name="raum">
+    Raum: <form:text name="Raum" />
+    Kapazt&auml;t: <form:text name="Kapaztaet" />
+    <form:button name="send" value="Eintragen" />
+</html:form>
+
+<h4><a href="?page=addEntry&action=lehrer">Lehrer</a></h4>
+<html:form name="lehrer">
+    Lehrer: <form:text name="Lehrer" />
+    Name: <form:text name="Name" />
+    <form:button name="send" value="Eintragen" />
+</html:form>

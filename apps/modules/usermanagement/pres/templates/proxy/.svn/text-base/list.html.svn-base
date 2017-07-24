@@ -1,0 +1,71 @@
+<@controller
+   namespace="modules::usermanagement::pres::documentcontroller::proxy"
+   class="umgt_proxy_list_controller"
+@>
+<core:addtaglib namespace="tools::form::taglib" prefix="html" class="form"/>
+<p>
+   The following list presents the visibility definitions stored in the current application.
+</p>
+<p>
+   <html:form class="type-filter" name="type-filter">
+      Filter by object type:
+      <form:select name="proxytypeid">
+         <select:option value="0">- no filter -</select:option>
+      </form:select>
+      <form:button name="go" value="GO"/>
+   </html:form>
+</p>
+<table class="vis-def">
+   <thead>
+      <tr>
+         <td>&nbsp;</td>
+         <td>Visibility definition</td>
+         <td>User(s)</td>
+         <td>Group(s)</td>
+         <td>Action(s)</td>
+      </tr>
+   </thead>
+   <tbody>
+      <html:placeholder name="ProxyList"/>
+   </tbody>
+</table>
+
+<html:template name="Proxy">
+   <template:addtaglib namespace="modules::usermanagement::pres::taglib" prefix="umgt" class="media"/>
+   <tr>
+      <td>
+         <umgt:media filename="visibility_def.png" alt="Delete visibility definition"/>
+      </td>
+      <td>
+         <strong><template:placeholder name="AppProxyType"/></strong>
+         with id
+         <strong><template:placeholder name="AppObjectId"/></strong>
+      </td>
+      <td>
+         <template:placeholder name="Users"/>
+      </td>
+      <td>
+         <template:placeholder name="Groups"/>
+      </td>
+      <td class="actions">
+         <a href="<template:placeholder name="proxy_details" />" title="View visibility definition details">
+         <umgt:media filename="details.png" title="View visibility definition details"/>
+         </a>
+         <a href="<template:placeholder name="proxy_delete" />" title="Delete visibility definition">
+         <umgt:media filename="delete.png" title="Delete visibility definition"/>
+         </a>
+         <a href="<template:placeholder name="proxy_add_user" />" title="Add users to visibility definition">
+            <umgt:media filename="group_add_user.png" title="Add users to visibility definition"/>
+         </a>
+         <a href="<template:placeholder name="proxy_remove_user" />" title="Remove users from visibility definition">
+            <umgt:media filename="group_remove_user.png" title="Remove users from visibility definition"/>
+         </a>
+         <a href="<template:placeholder name="proxy_add_group" />" title="Add groups to visibility definition">
+            <umgt:media filename="add_group.png" title="Add groups to visibility definition"/>
+         </a>
+         <a href="<template:placeholder name="proxy_remove_group" />" title="Remove groups from visibility definition">
+            <umgt:media filename="remove_group.png" title="Remove groups from visibility definition"/>
+         </a>
+      </td>
+   </tr>
+</html:template>

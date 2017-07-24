@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/adventurephpfra/!svn/ver/1615/branches/php5/1.15/modules/genericormapper/data
+END
+GenericORMapperDIDomainObjectsConfiguration.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/adventurephpfra/!svn/ver/1465/branches/php5/1.15/modules/genericormapper/data/GenericORMapperDIDomainObjectsConfiguration.php
+END
+GenericORRelationMapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/adventurephpfra/!svn/ver/1572/branches/php5/1.15/modules/genericormapper/data/GenericORRelationMapper.php
+END
+GenericORMapperDIMappingConfiguration.php
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/adventurephpfra/!svn/ver/1464/branches/php5/1.15/modules/genericormapper/data/GenericORMapperDIMappingConfiguration.php
+END
+GenericCriterionObject.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/adventurephpfra/!svn/ver/1571/branches/php5/1.15/modules/genericormapper/data/GenericCriterionObject.php
+END
+GenericDomainObject.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/adventurephpfra/!svn/ver/1500/branches/php5/1.15/modules/genericormapper/data/GenericDomainObject.php
+END
+GenericORMapperDIRelationConfiguration.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/adventurephpfra/!svn/ver/1464/branches/php5/1.15/modules/genericormapper/data/GenericORMapperDIRelationConfiguration.php
+END
+GenericORMapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/adventurephpfra/!svn/ver/1478/branches/php5/1.15/modules/genericormapper/data/GenericORMapper.php
+END
+GenericORMapperFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/adventurephpfra/!svn/ver/1464/branches/php5/1.15/modules/genericormapper/data/GenericORMapperFactory.php
+END
+BaseMapper.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/adventurephpfra/!svn/ver/1615/branches/php5/1.15/modules/genericormapper/data/BaseMapper.php
+END
+GenericORMapperException.php
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/adventurephpfra/!svn/ver/1464/branches/php5/1.15/modules/genericormapper/data/GenericORMapperException.php
+END
+GenericORMapperDataObject.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/adventurephpfra/!svn/ver/1471/branches/php5/1.15/modules/genericormapper/data/GenericORMapperDataObject.php
+END

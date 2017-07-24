@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/adventurephpfra/!svn/ver/1493/branches/php5/1.15/examples/sandbox/apps/config/modules/usermanagement/data/myapp
+END
+DEFAULT_umgt_relations.ini
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svnroot/adventurephpfra/!svn/ver/1492/branches/php5/1.15/examples/sandbox/apps/config/modules/usermanagement/data/myapp/DEFAULT_umgt_relations.ini
+END
+DEFAULT_umgt_domainobjects.ini
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svnroot/adventurephpfra/!svn/ver/1492/branches/php5/1.15/examples/sandbox/apps/config/modules/usermanagement/data/myapp/DEFAULT_umgt_domainobjects.ini
+END
+DEFAULT_umgt_objects.ini
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svnroot/adventurephpfra/!svn/ver/1492/branches/php5/1.15/examples/sandbox/apps/config/modules/usermanagement/data/myapp/DEFAULT_umgt_objects.ini
+END

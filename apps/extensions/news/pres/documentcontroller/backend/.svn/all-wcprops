@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/adventurephpfra/!svn/ver/1445/branches/php5/1.15/extensions/news/pres/documentcontroller/backend
+END
+menu_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/news/pres/documentcontroller/backend/menu_controller.php
+END
+list_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/adventurephpfra/!svn/ver/1445/branches/php5/1.15/extensions/news/pres/documentcontroller/backend/list_controller.php
+END
+delete_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/news/pres/documentcontroller/backend/delete_controller.php
+END
+edit_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/adventurephpfra/!svn/ver/1445/branches/php5/1.15/extensions/news/pres/documentcontroller/backend/edit_controller.php
+END

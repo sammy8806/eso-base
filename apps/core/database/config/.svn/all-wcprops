@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/core/database/config
+END
+StatementConfiguration.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/core/database/config/StatementConfiguration.php
+END
+StatementConfigurationProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/core/database/config/StatementConfigurationProvider.php
+END

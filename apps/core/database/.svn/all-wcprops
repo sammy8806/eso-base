@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/adventurephpfra/!svn/ver/1552/branches/php5/1.15/core/database
+END
+AbstractDatabaseHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/adventurephpfra/!svn/ver/1548/branches/php5/1.15/core/database/AbstractDatabaseHandler.php
+END
+SQLiteHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/core/database/SQLiteHandler.php
+END
+ConnectionManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/core/database/ConnectionManager.php
+END
+DatabaseHandlerException.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/core/database/DatabaseHandlerException.php
+END
+MySQLiHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/adventurephpfra/!svn/ver/1552/branches/php5/1.15/core/database/MySQLiHandler.php
+END
+MySQLxHandler.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/adventurephpfra/!svn/ver/1552/branches/php5/1.15/core/database/MySQLxHandler.php
+END

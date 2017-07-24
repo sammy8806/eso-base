@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/adventurephpfra/!svn/ver/1627/branches/php5/1.15/modules/usermanagement/pres/templates
+END
+main.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/adventurephpfra/!svn/ver/1613/branches/php5/1.15/modules/usermanagement/pres/templates/main.html
+END
+role.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/adventurephpfra/!svn/ver/1621/branches/php5/1.15/modules/usermanagement/pres/templates/role.html
+END
+group.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/adventurephpfra/!svn/ver/1621/branches/php5/1.15/modules/usermanagement/pres/templates/group.html
+END
+menu.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/adventurephpfra/!svn/ver/1613/branches/php5/1.15/modules/usermanagement/pres/templates/menu.html
+END
+permission.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/adventurephpfra/!svn/ver/1627/branches/php5/1.15/modules/usermanagement/pres/templates/permission.html
+END
+proxy.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/adventurephpfra/!svn/ver/1627/branches/php5/1.15/modules/usermanagement/pres/templates/proxy.html
+END
+user.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/adventurephpfra/!svn/ver/1613/branches/php5/1.15/modules/usermanagement/pres/templates/user.html
+END

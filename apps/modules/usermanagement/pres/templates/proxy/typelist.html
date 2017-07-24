@@ -1,0 +1,64 @@
+<@controller
+   namespace="modules::usermanagement::pres::documentcontroller::proxy"
+   class="umgt_type_list_controller"
+@>
+<h3><html:getstring
+       namespace="modules::usermanagement::pres"
+       config="labels.ini"
+       entry="frontend.proxy.type-list.headline"/></h3>
+<p>
+   <html:getstring
+          namespace="modules::usermanagement::pres"
+          config="labels.ini"
+          entry="frontend.proxy.type-list.intro.text"/>
+</p>
+<table class="vis-def">
+   <thead>
+      <tr>
+         <td>&nbsp;</td>
+         <td><html:getstring
+                namespace="modules::usermanagement::pres"
+                config="labels.ini"
+                entry="frontend.proxy.type-list.proxy-type.label"/></td>
+         <td><html:getstring
+                namespace="modules::usermanagement::pres"
+                config="labels.ini"
+                entry="frontend.proxy.type-list.actions.label"/></td>
+      </tr>
+   </thead>
+   <tbody>
+      <html:placeholder name="TypeList" />
+   </tbody>
+</table>
+<html:template name="Type">
+   <template:addtaglib namespace="modules::usermanagement::pres::taglib" prefix="umgt" class="media" />
+   <tr>
+      <td>
+         <umgt:media filename="visibility_def_type.png">
+            <media:getstring
+                   namespace="modules::usermanagement::pres"
+                   config="labels.ini"
+                   entry="frontend.proxy.type-list.proxy-type-img.label"/>
+         </umgt:media>
+      </td>
+      <td><template:placeholder name="AppObjectName" /></td>
+      <td class="actions">
+         <a href="<template:placeholder name="type_edit" />">
+           <umgt:media filename="edit.png">
+              <media:getstring
+                     namespace="modules::usermanagement::pres"
+                     config="labels.ini"
+                     entry="frontend.proxy.type-list.action.edit.label"/>
+           </umgt:media>
+         </a>
+         <a href="<template:placeholder name="type_delete" />">
+           <umgt:media filename="delete.png">
+              <media:getstring
+                     namespace="modules::usermanagement::pres"
+                     config="labels.ini"
+                     entry="frontend.proxy.type-list.action.delete.label"/>
+           </umgt:media>
+         </a>
+      </td>
+   </tr>
+</html:template>

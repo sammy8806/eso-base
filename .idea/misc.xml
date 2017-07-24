@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectResources">
+    <default-html-doctype>jar:file:\C:\Program Files (x86)\JetBrains\PhpStorm 3.0\lib\webide.jar!\resources\html5-schema\html5.rnc</default-html-doctype>
+  </component>
+  <component name="ProjectRootManager" version="2" />
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="http://svn.steven-tappert.de/timetable_apf/branches" />
+                  <option value="http://svn.steven-tappert.de/timetable_apf/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="http://svn.steven-tappert.de/timetable_apf/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/apps">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="https://adventurephpfra.svn.sourceforge.net/svnroot/adventurephpfra/apfdocupage" />
+                  <option value="https://adventurephpfra.svn.sourceforge.net/svnroot/adventurephpfra/branches" />
+                  <option value="https://adventurephpfra.svn.sourceforge.net/svnroot/adventurephpfra/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="https://adventurephpfra.svn.sourceforge.net/svnroot/adventurephpfra/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+</project>
+

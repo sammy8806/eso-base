@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/form/client/validator
+END
+FieldCompareValidator.js
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/form/client/validator/FieldCompareValidator.js
+END
+EMailValidator.js
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/form/client/validator/EMailValidator.js
+END
+SimpleDateControlValidator.js
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/form/client/validator/SimpleDateControlValidator.js
+END
+SimpleSelectValidator.js
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/form/client/validator/SimpleSelectValidator.js
+END
+IntegerValidator.js
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/form/client/validator/IntegerValidator.js
+END
+SimpleBirthdayValidator.js
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/form/client/validator/SimpleBirthdayValidator.js
+END
+CheckboxValidator.js
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/form/client/validator/CheckboxValidator.js
+END
+TextLengthValidator.js
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/form/client/validator/TextLengthValidator.js
+END
+FormValidator.js
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/form/client/validator/FormValidator.js
+END
+SimpleRadioControlValidator.js
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/form/client/validator/SimpleRadioControlValidator.js
+END
+PhoneAndFaxValidator.js
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/form/client/validator/PhoneAndFaxValidator.js
+END
+MultiSelectFieldValidator.js
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/form/client/validator/MultiSelectFieldValidator.js
+END
+NumberValidator.js
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/extensions/form/client/validator/NumberValidator.js
+END

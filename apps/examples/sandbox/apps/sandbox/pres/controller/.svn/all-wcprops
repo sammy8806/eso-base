@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/adventurephpfra/!svn/ver/1569/branches/php5/1.15/examples/sandbox/apps/sandbox/pres/controller
+END
+news_wizzard_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/adventurephpfra/!svn/ver/1564/branches/php5/1.15/examples/sandbox/apps/sandbox/pres/controller/news_wizzard_controller.php
+END
+db_wizzard_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/adventurephpfra/!svn/ver/1569/branches/php5/1.15/examples/sandbox/apps/sandbox/pres/controller/db_wizzard_controller.php
+END
+db_content_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/examples/sandbox/apps/sandbox/pres/controller/db_content_controller.php
+END
+tmpl_wizzard_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/examples/sandbox/apps/sandbox/pres/controller/tmpl_wizzard_controller.php
+END
+umgt_wizzard_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svnroot/adventurephpfra/!svn/ver/1569/branches/php5/1.15/examples/sandbox/apps/sandbox/pres/controller/umgt_wizzard_controller.php
+END

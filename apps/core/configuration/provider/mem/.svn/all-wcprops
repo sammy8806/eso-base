@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svnroot/adventurephpfra/!svn/ver/1560/branches/php5/1.15/core/configuration/provider/mem
+END
+MemcachedConfiguration.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/core/configuration/provider/mem/MemcachedConfiguration.php
+END
+MemcachedConfigurationProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/adventurephpfra/!svn/ver/1560/branches/php5/1.15/core/configuration/provider/mem/MemcachedConfigurationProvider.php
+END

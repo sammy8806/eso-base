@@ -1,0 +1,9 @@
+K 13
+svn:mergeinfo
+V 198
+/branches/php5/1.10:655,680
+/branches/php5/1.11:847,921
+/branches/php5/1.12:997-998,1007,1009,1016,1019,1022,1029,1034
+/branches/php5/1.13-gorm:1188-1213
+/branches/php5/1.14:1442,1444,1447,1459,1517
+END

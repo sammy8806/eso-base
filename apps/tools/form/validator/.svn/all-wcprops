@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/adventurephpfra/!svn/ver/1526/branches/php5/1.15/tools/form/validator
+END
+EMailValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/form/validator/EMailValidator.php
+END
+PhoneAndFaxValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/form/validator/PhoneAndFaxValidator.php
+END
+SimpleRadioControlValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/form/validator/SimpleRadioControlValidator.php
+END
+TextLengthValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/adventurephpfra/!svn/ver/1526/branches/php5/1.15/tools/form/validator/TextLengthValidator.php
+END
+CSRFHashValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/form/validator/CSRFHashValidator.php
+END
+SimpleSelectControlValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/form/validator/SimpleSelectControlValidator.php
+END
+SimpleBirthdayValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/form/validator/SimpleBirthdayValidator.php
+END
+MimeTypeValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/form/validator/MimeTypeValidator.php
+END
+TextFieldValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/adventurephpfra/!svn/ver/1495/branches/php5/1.15/tools/form/validator/TextFieldValidator.php
+END
+TimeCaptchaValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/form/validator/TimeCaptchaValidator.php
+END
+FieldCompareValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/form/validator/FieldCompareValidator.php
+END
+NumberValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/form/validator/NumberValidator.php
+END
+AbstractFormValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/form/validator/AbstractFormValidator.php
+END
+MultiSelectFieldValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/adventurephpfra/!svn/ver/1471/branches/php5/1.15/tools/form/validator/MultiSelectFieldValidator.php
+END
+CheckboxValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/form/validator/CheckboxValidator.php
+END
+SelectFieldValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/form/validator/SelectFieldValidator.php
+END
+IntegerValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/adventurephpfra/!svn/ver/1526/branches/php5/1.15/tools/form/validator/IntegerValidator.php
+END
+SimpleDateControlValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/form/validator/SimpleDateControlValidator.php
+END
+FileSizeValidator.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/form/validator/FileSizeValidator.php
+END

@@ -1,0 +1,61 @@
+10
+
+dir
+1627
+https://adventurephpfra.svn.sourceforge.net/svnroot/adventurephpfra/branches/php5/1.15/modules
+https://adventurephpfra.svn.sourceforge.net/svnroot/adventurephpfra
+
+
+
+2012-01-25T21:49:53.900802Z
+1627
+christianachatz
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+274e9e32-1151-0410-b532-f3256765c3a4
+
+captcha
+dir
+
+comments
+dir
+
+genericormapper
+dir
+
+guestbook
+dir
+
+guestbook2009
+dir
+
+kontakt4
+dir
+
+newspager
+dir
+
+pager
+dir
+
+socialbookmark
+dir
+
+usermanagement
+dir
+
+weather
+dir
+

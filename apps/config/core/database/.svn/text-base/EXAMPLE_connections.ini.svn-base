@@ -1,0 +1,32 @@
+[MySQLx]
+DB.Host = "localhost"
+;DB.Port = "3306"
+;DB.Socket = "/tmp/mysql.sock"
+DB.User = "user"
+DB.Pass = "pass"
+DB.Name = "db_name"
+DB.Type = "MySQLx"
+DB.DebugMode = "true|false"
+; sets the charset of the connection, the result, and the database
+DB.Charset = "utf8"
+; sets the collation of the connection and the database
+DB.Collation = "utf8_general_ci"
+
+[MySQLi]
+DB.Host = "localhost"
+;DB.Port = "3306"
+;DB.Socket = "/tmp/mysql.sock"
+DB.User = "user"
+DB.Pass = "pass"
+DB.Name = "db_name"
+DB.Type = "MySQLi"
+DB.DebugMode = "true|false"
+; sets the charset of the connection, the result, and the database
+DB.Charset = "utf8"
+; sets the collation of the connection and the database
+DB.Collation = "utf8_general_ci"
+
+[SQLite]
+DB.Name = "./database/test_db.sqlite"
+DB.Type = "SQLite"
+DB.DebugMode = "true|false"

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/examples/sandbox/apps/config/extensions/news/myapp
+END
+DEFAULT_labels.ini
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/examples/sandbox/apps/config/extensions/news/myapp/DEFAULT_labels.ini
+END
+DEFAULT_serviceobjects.ini
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/examples/sandbox/apps/config/extensions/news/myapp/DEFAULT_serviceobjects.ini
+END
+DEFAULT_news.ini
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/examples/sandbox/apps/config/extensions/news/myapp/DEFAULT_news.ini
+END
+DEFAULT_news_domainobjects.ini
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/examples/sandbox/apps/config/extensions/news/myapp/DEFAULT_news_domainobjects.ini
+END
+DEFAULT_news_objects.ini
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/examples/sandbox/apps/config/extensions/news/myapp/DEFAULT_news_objects.ini
+END
+DEFAULT_news_relations.ini
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/examples/sandbox/apps/config/extensions/news/myapp/DEFAULT_news_relations.ini
+END

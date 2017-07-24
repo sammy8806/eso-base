@@ -1,0 +1,71 @@
+10
+
+dir
+1627
+https://adventurephpfra.svn.sourceforge.net/svnroot/adventurephpfra/branches/php5/1.15/extensions/arraypager
+https://adventurephpfra.svn.sourceforge.net/svnroot/adventurephpfra
+
+
+
+2012-01-22T16:17:37.485018Z
+1622
+christianachatz
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+274e9e32-1151-0410-b532-f3256765c3a4
+
+README.txt
+file
+
+
+
+
+2012-01-21T15:24:30.911000Z
+18e606d9b0b0818653224b545d4d216e
+2010-01-08T18:34:02.473244Z
+801
+christianachatz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+130
+
+biz
+dir
+
+data
+dir
+
+pres
+dir
+

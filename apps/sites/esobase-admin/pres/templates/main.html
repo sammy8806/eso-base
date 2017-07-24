@@ -1,0 +1,31 @@
+<%<core:addtaglib namespace="sites::esobase::sites::pres::taglib" prefix="html" class="content"/>
+<core:addtaglib namespace="sites::esobase::sites::pres::taglib" prefix="html" class="baseURL"/>
+%><!DOCTYPE html>
+<html>
+<head>
+	<title>Verwaltung ~ ESO-BASE</title>
+	<link rel="stylesheet" type="text/css" href="http://timetable-apf.steven-tappert.de/css/style.css" media="screen"/>
+	<link rel="stylesheet" type="text/css" href="http://timetable-apf.steven-tappert.de/css/print.css" media="print"/>
+	<link rel="shortcut icon" href="<html:baseURL fullURL="true" />/img/av.gif" type="image/x-icon"/>
+	<meta base="<html:baseURL fullURL="true" />"/>
+	<meta charset="UTF-8"/>
+</head>
+<body>
+<div class="header">
+	<a href="?page=home" alt="home"><img src="<html:baseURL fullURL="true" />/img/head_logo.jpg"/></a>
+
+	<div class="navi">
+<core:importdesign namespace="sites::esobase-admin::pres::templates" template="navigation"/>
+	</div>
+</div>
+<div class="wrapper">
+	<div class="content"><%
+%><html:content rootNS="sites::esobase-admin"
+		              modNS="sites::esobase-admin::modules"
+		              TplNS="pres::templates"
+		              defaultTpl="home"
+				/><%
+	%></div>
+</div>
+</body>
+</html>

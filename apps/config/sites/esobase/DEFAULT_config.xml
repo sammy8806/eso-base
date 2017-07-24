@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<section name="GlobalSettings">
+		<property name="startHour">1</property>
+		<property name="maxHours">10</property>
+
+		<property name="startDay">1</property>
+		<property name="maxDays">5</property>
+
+		<section name="design">
+			<section name="title">
+				<property name="appendTitle">true</property>
+				<property name="fixedTitle">@ BBS2 - Stunden- und Raumplanung</property>
+			</section>
+		</section>
+	</section>
+
+	<section name="moduleSettings">
+		<section name="stundenplan">
+			<property name="appendClass">true</property>
+			<property name="appendRoom">true</property>
+			<property name="appendTeacher">true</property>
+		</section>
+	</section>
+</configuration>

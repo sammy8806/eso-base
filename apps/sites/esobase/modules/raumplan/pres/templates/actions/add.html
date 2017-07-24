@@ -1,0 +1,105 @@
+<@controller namespace="sites::esobase::modules::raumplan::pres::documentcontroller" class="raumplanAdd" @>
+<core:addtaglib namespace="tools::form::taglib" prefix="html" class="form" />
+
+<html:form name="raumplanADD" class="input-width">
+    <form:error>
+        <div class="error">Das Formular wurde <b>nicht</b> gespeichert, bitte &uuml;berpr&uuml;fen Sie Ihre Angaben!
+        </div>
+    </form:error>
+
+    <form:listener control="teacher">
+        <div class="error">Bitte geben Sie einen Lehrer an!</div>
+    </form:listener>
+    <form:addvalidator class="SimpleSelectControlValidator" button="send" control="teacher" />
+    <div class="headline">Lehrer</div>
+    <form:select name="teacher" width="15">
+        <select:option value="">-----</select:option>
+    </form:select>
+
+    <br />
+
+    <form:listener control="class">
+        <div class="error">Bitte geben Sie eine Klasse an!</div>
+    </form:listener>
+    <div class="headline">Klasse</div>
+    <!-- <span class="subtitle">Bei ausgefülltem Zweck wird Klasse ignoriert!</span><br /> -->
+    <form:select name="class">
+        <select:option value="">-----</select:option>
+    </form:select>
+    <!-- oder Zweck -->
+    <!-- form:text name="purpose" /-->
+
+    <br />
+
+    <div class="headline">Fach</div>
+    <form:select name="subject">
+        <select:option value="">-----</select:option>
+    </form:select>
+
+    <br />
+
+    <form:listener control="room">
+        <div class="error">Bitte geben Sie einen Raum an!</div>
+    </form:listener>
+    <form:addvalidator class="SimpleSelectControlValidator" button="send" control="room" />
+    <div class="headline">Raum</div>
+    <form:select name="room">
+        <select:option value="">-----</select:option>
+    </form:select>
+
+    <br />
+
+    <div class="headline">Daten</div>
+
+    Rythmus:
+    <form:select name="rythm">
+        <select:option value="0">Keiner</select:option>
+        <select:option value="7D">W&ouml;chentlich</select:option>
+        <select:option value="14D">2 W&ouml;chentlich</select:option>
+        <select:option value="28D">4 W&ouml;chentlich</select:option>
+    </form:select>
+
+    <br />
+
+    <form:listener control="fromDate">
+        <div class="error">Bitte geben Sie ein korrektes Datum an! (Schema: tt.mm.YYYY)</div>
+    </form:listener>
+    Vom:
+    <form:text name="fromDate" />
+
+    <br />
+
+    <form:listener control="toDate">
+        <div class="error">Bitte geben Sie ein korrektes Datum an! (Schema: tt.mm.YYYY)</div>
+    </form:listener>
+    Bis zum:
+    <form:text name="toDate" />
+
+    <br />
+
+    <div class="headline">Stunde</div>
+    Von:
+    <form:select name="fromHour">
+        <!-- Dynamisch ergänzt -->
+    </form:select>
+
+    <br />
+
+    <form:listener control="toHour">
+        <div class="error">Die Endzeit muss <b>gleich</b> oder <b>nach</b> der Anfangszeit sein!</div>
+    </form:listener>
+    Bis:
+    <form:select name="toHour" ref="fromHour">
+        <!-- Dynamisch ergänzt -->
+    </form:select>
+
+    <form:timecaptcha name="timecaptcha" />
+    <form:addvalidator class="TimeCaptchaValidator" button="send" control="timecaptcha" />
+
+    <form:addvalidator class="SimpleBirthdayValidator" button="send" control="fromDate" />
+
+    <br />
+    <br />
+
+    <form:button name="send" value="Speichern" />
+</html:form>

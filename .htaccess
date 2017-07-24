@@ -1,0 +1,11 @@
+# Aktivierung von mod_rewrite
+RewriteEngine on
+
+# Ausschluss definierter Verzeichnisse von der RewriteRule
+# RewriteCond %{REQUEST_URI} !^(\/frontend) [NC]
+# RewriteCond %{REQUEST_URI} !^(\/img) [NC]
+# RewriteCond %{REQUEST_URI} !^(\/css) [NC]
+
+# Definition der RewriteRule. Alle Anfragen ausser den ausgenommenen
+# Dateien werden auf die index.php weitergeleitet
+RewriteRule !(index\.php|\.css|\.jpe?g|\.png|\.gif|\.ico)$ /index.php?apf-rewrited-query=%{REQUEST_URI}&%{QUERY_STRING} [NC,L]

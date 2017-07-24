@@ -1,0 +1,30 @@
+<@controller
+namespace="sites::esobase::sites::pres::controller"
+class="selectGenerator"
+@>
+<core:addtaglib namespace="tools::form::taglib" prefix="html" class="form" />
+<div class="selectGenerator">
+    <html:form name="selectGenerator">
+        <div class="site-home-selectBox">
+            <div class="site-title">Klasse</div>
+            <form:select name="klasse">
+                <select:option name="-----" value="" />
+            </form:select>
+        </div>
+
+        <div class="site-home-selectBox">
+            <div class="site-title">Lehrer</div>
+            <form:select name="lehrer">
+                <select:option name="-----" value="" />
+            </form:select>
+        </div>
+
+        <div class="site-home-selectBox">
+            <div class="site-title">Raum</div>
+            <form:select name="raum">
+                <select:option name="-----" value="" />
+            </form:select>
+            <form:button name="send" value="Aufrufen" />
+        </div>
+    </html:form>
+</div>

@@ -1,0 +1,69 @@
+<@controller namespace="modules::comments::pres::documentcontroller" class="comment_form_v1_controller" @>
+<core:addtaglib namespace="tools::form::taglib" prefix="html" class="form" />
+<div class="cm--create">
+   <div class="cm--create-head">
+      <html:getstring namespace="modules::comments" config="language" entry="formhint.text.1" /> <a href="<html:placeholder name="back" />#comments" title="<html:getstring namespace="modules::comments" config="language" entry="formhint.text.2.title" />"><strong><html:getstring namespace="modules::comments" config="language" entry="formhint.text.2" /></strong></a><html:getstring namespace="modules::comments" config="language" entry="formhint.text.3" />
+   </div>
+   <div class="cm--create-form">
+      <html:form name="AddComment" method="post">
+         <span><form:getstring namespace="modules::comments" config="language" entry="form.name" />*</span>
+         <form:text
+            maxlength="100"
+            name="Name"
+            class="cm--create-element-name"
+         />
+         <form:addvalidator
+            class="TextLengthValidator"
+            button="Save"
+            control="Name|Comment"
+         />
+         <br />
+         <span><form:getstring namespace="modules::comments" config="language" entry="form.email" />*</span>
+         <form:text
+            maxlength="100"
+            name="EMail"
+            class="cm--create-element-email"
+         />
+         <form:addvalidator
+            class="EMailValidator"
+            button="Save"
+            control="EMail"
+         />
+         <form:addfilter
+            class="EMailFilter"
+            button="Save"
+            control="EMail"
+         />
+         <br />
+         <br />
+         <form:getstring namespace="modules::comments" config="language" entry="form.comment" />
+         <br />
+         <form:area
+            name="Comment"
+            class="cm--create-element-comment"
+            cols="50"
+            rows="6"
+         />
+         <br />
+         <br />
+         <span><form:getstring namespace="modules::comments" config="language" entry="form.confirm" />*</span>
+         <br />
+         <br />
+         <form:addtaglib namespace="modules::captcha::pres::taglib" prefix="form" class="captcha" />
+         <form:captcha
+             text_class="cm--create-element-captcha"
+             name="Captcha"
+             clearonerror="true"
+         />
+         <form:addvalidator
+            namespace="modules::captcha::pres::validator"
+            class="CaptchaValidator"
+            control="Captcha"
+            button="Save"
+         />
+         <br />
+         <br />
+         <form:button name="Save" class="cm--create-element-button" />
+      </html:form>
+   </div>
+</div>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/adventurephpfra/!svn/ver/1545/branches/php5/1.15/tools/cache
+END
+CacheManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/cache/CacheManager.php
+END
+CacheKey.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/adventurephpfra/!svn/ver/1520/branches/php5/1.15/tools/cache/CacheKey.php
+END
+CacheManagerFabric.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/cache/CacheManagerFabric.php
+END
+CacheBase.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/cache/CacheBase.php
+END
+CacheProvider.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot/adventurephpfra/!svn/ver/1520/branches/php5/1.15/tools/cache/CacheProvider.php
+END

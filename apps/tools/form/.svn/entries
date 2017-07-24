@@ -1,0 +1,77 @@
+10
+
+dir
+1627
+https://adventurephpfra.svn.sourceforge.net/svnroot/adventurephpfra/branches/php5/1.15/tools/form
+https://adventurephpfra.svn.sourceforge.net/svnroot/adventurephpfra
+
+
+
+2012-01-20T20:48:50.371933Z
+1617
+christianachatz
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+274e9e32-1151-0410-b532-f3256765c3a4
+
+FormException.php
+file
+
+
+
+
+2012-01-21T15:24:34.498000Z
+6bd12707d6a4dc3e266972ebd0c35979
+2010-03-13T12:47:12.210810Z
+884
+christianachatz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1148
+
+filter
+dir
+
+model
+dir
+
+provider
+dir
+
+taglib
+dir
+
+validator
+dir
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svnroot/adventurephpfra/!svn/ver/1492/branches/php5/1.15/examples/sandbox/apps/config/modules/usermanagement/biz/myapp
+END
+DEFAULT_serviceobjects.ini
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svnroot/adventurephpfra/!svn/ver/1492/branches/php5/1.15/examples/sandbox/apps/config/modules/usermanagement/biz/myapp/DEFAULT_serviceobjects.ini
+END
+DEFAULT_umgtconfig.ini
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/adventurephpfra/!svn/ver/1492/branches/php5/1.15/examples/sandbox/apps/config/modules/usermanagement/biz/myapp/DEFAULT_umgtconfig.ini
+END
+DEFAULT_actionconfig.ini
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/adventurephpfra/!svn/ver/1492/branches/php5/1.15/examples/sandbox/apps/config/modules/usermanagement/biz/myapp/DEFAULT_actionconfig.ini
+END

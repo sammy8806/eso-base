@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/adventurephpfra/!svn/ver/1597/branches/php5/1.15/tests
+END
+phpunit.dist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svnroot/adventurephpfra/!svn/ver/1595/branches/php5/1.15/tests/phpunit.dist.xml
+END
+phpunit.dist
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/adventurephpfra/!svn/ver/1588/branches/php5/1.15/tests/phpunit.dist
+END
+HOWTO.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/adventurephpfra/!svn/ver/1588/branches/php5/1.15/tests/HOWTO.txt
+END

@@ -1,0 +1,373 @@
+@charset "UTF-8";
+
+/**
+  * Correctures
+  *
+  *
+  **/
+
+img {
+	border: none;
+	margin: 0;
+}
+
+table {
+	border: none;
+	margin: 0;
+}
+
+body {
+	background: #FFF;
+	color: #000;
+	margin: 0;
+}
+
+.wrapper {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 130px;
+	bottom: 0%;
+}
+
+.header {
+	/*margin-top: 5px;
+	height: 118.683px;*/
+	background: url('../img/head_logo_bg.jpg') #FFF;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	right: 0;
+	height: 120px;
+}
+
+.header img {
+	margin-left: 1%;
+}
+
+.header .navi {
+	display: inline-block;
+}
+
+.header .navi .entry {
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+}
+
+.header .navi:after {
+	clear: both;
+}
+
+.title {
+	font-size: 150%;
+	font-weight: bold;
+	color: #605D66;
+}
+
+.content {
+	padding: 5px;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.content h2 {
+	color: #403A44;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+/*
+.table {
+	width: 100%;
+	max-width: 950px;
+}
+
+.table td {
+	color: #000;
+	background: #CCCCCC;
+	padding: 4px;
+	width: 5%;
+}
+
+.table .tableHead th {
+	background: #FFF;
+	font-weight: 100;
+}
+
+.table tr {
+}
+*/
+
+/** Jonas **/
+
+table {
+	/** border-collpse: seperate; **/
+	margin: auto;
+	margin-top: 15px;
+}
+
+table td {
+	margin: 5px 10px;
+	padding: 1px 10px;
+	border: 1px solid #ccc;
+}
+
+table th {
+	padding: 0 10px 5px 10px;
+}
+
+/** Jonas ENDE **/
+
+#version {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	color: #989898 !important;
+}
+
+#version a {
+	color: #989898 !important;
+}
+
+#setup {
+	width: 500px;
+}
+
+#error {
+	position: absolute;
+	top: 63px;
+	left: 30%;
+	right: 30%;
+	height: 25px;
+	padding: 10px 3px 5px 3px;
+	border: 0px solid #000;
+	text-align: center;
+	background: url('../img/error_01.png') transparent;
+	margin-top: 25px;
+}
+
+#error_only {
+	position: absolute;
+	top: 63px;
+	left: 30%;
+	right: 30%;
+	height: 250px;
+	padding: 35px 3px 5px 3px;
+	border: 1px solid #000;
+	text-align: center;
+	background: #ccc;
+}
+
+#backlink {
+	margin-left: 20%;
+}
+
+#freeroomlink {
+	margin-left: 7%;
+}
+
+.headline {
+	color: #605F67;
+	font-weight: bold;
+	font-size: 1.5em;
+	font-family: "Courier New", Courier, monospace;
+	margin: 15px 0 0 0;
+}
+
+.headline:first-letter {
+	color: #B33950;
+	font-weight: bolder;
+	font-size: 1.3em;
+}
+
+.headline h2 {
+	font-size: 1em;
+	margin: 13px 0 13px 0;
+}
+
+.headline h2:first-letter {
+	color: #B33950;
+	font-weight: bolder;
+	font-size: 1.3em;
+}
+
+.headline h4 {
+	font-size: 0.8em;
+	margin: 10px 0 10px 0;
+}
+
+.headline h4:first-letter {
+	color: #B33950;
+	font-weight: bolder;
+	font-size: 1.3em;
+}
+
+.marked {
+	color: #B33950;
+	font-size: 1.2em;
+}
+
+.little-30 {
+	font-size: 0.7em;
+}
+
+#copy {
+	position: fixed;
+	bottom: 5px;
+	right: 10px;
+	font-size: 0.8em;
+	color: #989898 !important;
+}
+
+form .error {
+	/* border: 2px #800 dashed; */
+	background: #990000;
+	color: #fff;
+	/* font-weight: bold; */
+	padding: 3px;
+	margin: 5px;
+	border-radius: 3px;
+	width: 300px;
+}
+
+.error, .error a {
+	color: #403A44;
+	text-align: center;
+	font-size: 1.1em;
+}
+
+.footer {
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	width: 310px;
+	font-size: .8em;
+	color: #989898;
+}
+
+.footer img {
+	font-size: 100%;
+}
+
+.site-title {
+	color: #605F67;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+.site-title:first-letter {
+	color: #B33950;
+	font-weight: bolder;
+	font-size: 1.4em;
+}
+
+.space-20 {
+	margin-bottom: 20px;
+}
+
+/** Content Sites **/
+
+.site-home-selectBox {
+	width: 200px;
+	height: 60px;
+	margin: auto;
+	text-align: center;
+}
+
+.site-home-selectBox input, .selectBox-line input {
+	margin: 30px;
+}
+
+.site-home-selectBox select, .selectBox-line input {
+	min-width: 120px;
+}
+
+.selectBox-line {
+	display: inline-block;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+.big {
+	font-size: 1.7em;
+}
+
+.bold {
+	font-weight: bolder;
+}
+
+.input-width input, .input-width select {
+	min-width: 150px;
+}
+
+/** Navigation **/
+
+.navi {
+	display: inline;
+	/** font: 16px "Segoe Print"; **/
+	font-size: 15px;
+	font-family: "Segoe Print", "Courier New", arial;
+	line-height: 22px;
+	position: absolute;
+	top: 28px;
+	left: 110px;
+	height: 40px;
+	width: 630px;
+}
+
+.navi a {
+	color: #DDD;
+	text-decoration: none;
+	/** margin: 0 10px; **/
+}
+
+.navi a:after {
+	content: "      •      ";
+}
+
+.navi a:last-child:after {
+	content: "";
+}
+
+.navi a:last-child {
+	margin-right: 0;
+}
+
+.navi a:visited {
+	color: #DDD;
+	text-decoration: none;
+}
+
+.navi a:focus {
+	font-weight: bold;
+	color: #DDD;
+	text-decoration: none;
+}
+
+.navi a:active {
+	font-weight: bold;
+	color: #DDD;
+	text-decoration: none;
+}
+
+/**
+ 
+ .redLetter {
+	 color: #B33950;
+ }
+ .otherLetter {
+	 color: #5F5C65;
+ }
+
+**/

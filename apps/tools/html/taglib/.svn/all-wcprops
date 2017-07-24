@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/adventurephpfra/!svn/ver/1622/branches/php5/1.15/tools/html/taglib
+END
+iterator_taglib_item.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/adventurephpfra/!svn/ver/1519/branches/php5/1.15/tools/html/taglib/iterator_taglib_item.php
+END
+template_taglib_getstring.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/html/taglib/template_taglib_getstring.php
+END
+ui_getstring.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/adventurephpfra/!svn/ver/1609/branches/php5/1.15/tools/html/taglib/ui_getstring.php
+END
+item_taglib_getstring.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/adventurephpfra/!svn/ver/1611/branches/php5/1.15/tools/html/taglib/item_taglib_getstring.php
+END
+iterator_taglib_getstring.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/adventurephpfra/!svn/ver/1610/branches/php5/1.15/tools/html/taglib/iterator_taglib_getstring.php
+END
+item_taglib_addtaglib.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/html/taglib/item_taglib_addtaglib.php
+END
+lang_taglib_importdesign.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/html/taglib/lang_taglib_importdesign.php
+END
+html_taglib_fallbackimport.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/html/taglib/html_taglib_fallbackimport.php
+END
+html_taglib_getstring.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/html/taglib/html_taglib_getstring.php
+END
+doc_taglib_createobject.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/adventurephpfra/!svn/ver/1622/branches/php5/1.15/tools/html/taglib/doc_taglib_createobject.php
+END
+iterator_taglib_addtaglib.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/html/taglib/iterator_taglib_addtaglib.php
+END
+item_taglib_placeholder.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/adventurephpfra/!svn/ver/1519/branches/php5/1.15/tools/html/taglib/item_taglib_placeholder.php
+END
+html_taglib_iterator.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/adventurephpfra/!svn/ver/1519/branches/php5/1.15/tools/html/taglib/html_taglib_iterator.php
+END
+generic_taglib_importdesign.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/html/taglib/generic_taglib_importdesign.php
+END
+iterator_taglib_placeholder.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/html/taglib/iterator_taglib_placeholder.php
+END
+lngtmpl_taglib_importdesign.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/html/taglib/lngtmpl_taglib_importdesign.php
+END
+fcon_taglib_importdesign.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/tools/html/taglib/fcon_taglib_importdesign.php
+END

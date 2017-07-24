@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/proxy
+END
+umgt_type_edit_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/proxy/umgt_type_edit_controller.php
+END
+umgt_proxy_remove_groups_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/proxy/umgt_proxy_remove_groups_controller.php
+END
+umgt_revoke_access_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/proxy/umgt_revoke_access_controller.php
+END
+permission_base_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/adventurephpfra/!svn/ver/1482/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/proxy/permission_base_controller.php
+END
+umgt_proxy_add_users_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/proxy/umgt_proxy_add_users_controller.php
+END
+umgt_proxy_add_groups_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/proxy/umgt_proxy_add_groups_controller.php
+END
+umgt_proxy_list_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/adventurephpfra/!svn/ver/1521/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/proxy/umgt_proxy_list_controller.php
+END
+umgt_type_list_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/adventurephpfra/!svn/ver/1483/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/proxy/umgt_type_list_controller.php
+END
+umgt_proxy_remove_users_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/proxy/umgt_proxy_remove_users_controller.php
+END
+umgt_proxy_details_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/proxy/umgt_proxy_details_controller.php
+END
+umgt_proxy_delete_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/proxy/umgt_proxy_delete_controller.php
+END
+umgt_type_delete_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/adventurephpfra/!svn/ver/1483/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/proxy/umgt_type_delete_controller.php
+END
+umgt_proxy_add_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/proxy/umgt_proxy_add_controller.php
+END
+umgt_type_add_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/proxy/umgt_type_add_controller.php
+END

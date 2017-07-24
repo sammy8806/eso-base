@@ -1,0 +1,53 @@
+<@controller namespace="sites::esobase-admin::modules::stundenplan::pres::documentcontroller"
+class="stundenplanverwaltung" @>
+<core:addtaglib namespace="tools::form::taglib" prefix="html" class="form"/>
+<core:addtaglib namespace="tools::link::taglib" prefix="html" class="a"/>
+<h4>Übersicht
+	<a href="?page=stundenplan&order=asc">&uarr;</a>
+	<a href="?page=stundenplan&order=desc">&darr;</a>
+</h4>
+
+<div class="box"><%
+	%><html:template name="VersionBox">
+		<table border="1">
+			<tr>
+				<th>Version</th>
+				<th>Beschreibung</th>
+				<th>Erstellt am</th>
+				<th>Datens&auml;tze</th>
+			</tr>
+			<template:placeholder name="VersionLines" />
+		</table>
+	</html:template><%
+	%><html:template name="VersionList">
+		<tr>
+			<td>
+				<template:placeholder name="version"/>
+			</td>
+			<td>
+				<template:placeholder name="description"/>
+			</td>
+			<td>
+				<template:placeholder name="created"/>
+			</td>
+			<td>
+				<template:placeholder name="dataCount"/>
+			</td>
+		</tr>
+	</html:template><%
+
+	%><html:placeholder name="VersionList"/><%
+%></div>
+
+<!-- TODO: Zeiträume -->
+<div class="box">
+	<html:form name="Stundenplan_addVersion">
+		Neue Stundenplan-Version:
+		<form:placeholder name="newVersion"/>
+		<br/>
+		Kommentar:
+		<form:text name="VersionDescription"/>
+
+		<form:button name="send" value="Hinzuf&uuml;gen"/>
+	</html:form>
+</div>

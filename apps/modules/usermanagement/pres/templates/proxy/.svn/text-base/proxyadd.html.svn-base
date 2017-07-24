@@ -1,0 +1,69 @@
+<@controller
+   namespace="modules::usermanagement::pres::documentcontroller::proxy"
+   class="umgt_proxy_add_controller"
+@>
+<p>
+   Let's you add a visibility definition. Please choose an appropriate object type along with a
+   given user or group.
+</p>
+<core:addtaglib namespace="tools::form::taglib" prefix="html" class="form" />
+<html:form name="visibilitydef" method="post">
+   <h4>Basic settings</h4>
+   <div>
+      <label for="proxytypeid">Visibility type:</label>
+      <form:select id="proxytypeid" name="proxytypeid" class="formfield" />
+   </div>
+   <div>
+      <label for="appobjectid">Application object id:</label>
+      <form:text id="appobjectid" name="appobjectid" class="formfield" maxlength="10" minlength="1"/>
+      <form:addvalidator
+         class="TextLengthValidator"
+         button="add"
+         control="appobjectid"
+      />
+      <form:addvalidator
+         class="IntegerValidator"
+         button="add"
+         control="appobjectid"
+      />
+   </div>
+   <form:listener control="users">
+      <div class="error-cont">
+         Please mark at least one user or group to create the visibility definition!
+      </div>
+   </form:listener>
+   <div>
+      <label for="users">Users:</label>
+      <form:multiselect id="users" name="users" class="formfield" size="6" alt="groups"/>
+   </div>
+   <div>
+      <label for="groups">Groups:</label>
+      <form:multiselect id="groups" name="groups" class="formfield" size="6"/>
+   </div>
+   <form:addvalidator
+      namespace="modules::usermanagement::pres::validator"
+      class="UserOrGroupActivatedValidator"
+      control="users"
+      button="add"
+   />
+   <h4>Access permissions</h4>
+   <div class="umgt-access-perms">
+      <p>
+         <form:checkbox id="read-perm" name="ReadPermission"/>
+         <label for="read-perm">Read permission</label>
+      </p>
+      <p>
+         <form:checkbox id="write-perm" name="WritePermission"/>
+         <label for="write-perm">Write permission</label>
+      </p>
+      <p>
+         <form:checkbox id="link-perm" name="LinkPermission"/>
+         <label for="link-perm">Link permission</label>
+      </p>
+      <p>
+         <form:checkbox id="delete-perm" name="DeletePermission"/>
+         <label for="delete-perm">Delete permission</label>
+      </p>
+   </div>
+   <form:button name="add" value="Add" class="formfield" />
+</html:form>

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot/adventurephpfra/!svn/ver/1622/branches/php5/1.15/modules/guestbook/pres/templates
+END
+adminedit.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/adventurephpfra/!svn/ver/1622/branches/php5/1.15/modules/guestbook/pres/templates/adminedit.html
+END
+admineditcomment.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svnroot/adventurephpfra/!svn/ver/1622/branches/php5/1.15/modules/guestbook/pres/templates/admineditcomment.html
+END
+createentry.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/adventurephpfra/!svn/ver/1622/branches/php5/1.15/modules/guestbook/pres/templates/createentry.html
+END
+admindeletecomment.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svnroot/adventurephpfra/!svn/ver/1622/branches/php5/1.15/modules/guestbook/pres/templates/admindeletecomment.html
+END
+display.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/adventurephpfra/!svn/ver/1622/branches/php5/1.15/modules/guestbook/pres/templates/display.html
+END
+guestbook.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot/adventurephpfra/!svn/ver/1622/branches/php5/1.15/modules/guestbook/pres/templates/guestbook.html
+END
+adminaddcomment.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/adventurephpfra/!svn/ver/1622/branches/php5/1.15/modules/guestbook/pres/templates/adminaddcomment.html
+END
+adminlogin.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot/adventurephpfra/!svn/ver/1622/branches/php5/1.15/modules/guestbook/pres/templates/adminlogin.html
+END
+admindelete.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/adventurephpfra/!svn/ver/1622/branches/php5/1.15/modules/guestbook/pres/templates/admindelete.html
+END

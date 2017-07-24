@@ -1,0 +1,44 @@
+<%
+<@controller namespace="sites::esobase::modules::freieRaeume::pres::documentcontroller" class="freieRaeumeController" @>
+<core:addtaglib namespace="tools::form::taglib" prefix="html" class="form" />
+%><div class="center">
+    <html:form name="freieRaeume">
+        <form:input value="free_room" name="site" type="hidden" />
+        <div class="selectBox-line">
+            <div class="site-title">Tag</div>
+            <form:select name="day" size="1">
+                <!-- Dynamisch aus Config eingesetzt -->
+            </form:select>
+        </div>
+
+        <div class="selectBox-line">
+            <div class="site-title">Stunde</div>
+            <form:select name="hour" size="1">
+                <!-- Dynamisch aus Config eingesetzt -->
+            </form:select>
+        </div>
+        <br />
+        <form:button name="submit" value="R&auml;ume zeigen" />
+    </html:form>
+</div>
+<html:template name="title">
+    <div class="site-home-selectBox">
+        <div class="headline">Tag:</div>
+        <span class="site-title">
+            <template:placeholder name="day" />
+        </span>
+    </div>
+    <div class="site-home-selectBox">
+        <div class="headline">Stunde:</div>
+        <span class="site-title">
+            <template:placeholder name="hour" />
+        </span>
+    </div>
+</html:template>
+
+<br class="space-20" />
+
+<html:template name="room">
+    <template:placeholder name="room" />
+    &nbsp;&bull;
+</html:template>

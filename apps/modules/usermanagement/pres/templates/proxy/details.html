@@ -1,0 +1,54 @@
+<@controller
+   namespace="modules::usermanagement::pres::documentcontroller::proxy"
+   class="umgt_proxy_details_controller"
+@>
+<h3><html:getstring
+       namespace="modules::usermanagement::pres"
+       config="labels.ini"
+       entry="frontend.proxy.details.headline"/></h3>
+<p>
+   <html:getstring
+       name="intro-text"
+       namespace="modules::usermanagement::pres"
+       config="labels.ini"
+       entry="frontend.proxy.details.intro.text"/>
+</p>
+<table class="vis-def">
+   <thead>
+      <tr>
+         <td>&nbsp;</td>
+         <td><html:getstring
+                namespace="modules::usermanagement::pres"
+                config="labels.ini"
+                entry="frontend.proxy.details.users-groups.label"/></td>
+         <td><html:getstring
+                namespace="modules::usermanagement::pres"
+                config="labels.ini"
+                entry="frontend.proxy.details.actions.label"/></td>
+      </tr>
+   </thead>
+   <tbody>
+      <html:placeholder name="list" />
+   </tbody>
+</table>
+<html:template name="listitem">
+   <template:addtaglib namespace="modules::usermanagement::pres::taglib" prefix="umgt" class="media" />
+   <tr>
+      <td>
+         <umgt:media />
+      </td>
+      <td>
+         <template:placeholder name="item" />
+      </td>
+      <td>
+         <a href="<template:placeholder name="delete_link"/>">
+            <umgt:media filename="delete.png">
+               <media:getstring
+                   namespace="modules::usermanagement::pres"
+                   config="labels.ini"
+                   entry="frontend.proxy.details.actions.revoke.label"/>
+            </umgt:media>
+         </a>
+      </td>
+   </tr>
+</html:template>

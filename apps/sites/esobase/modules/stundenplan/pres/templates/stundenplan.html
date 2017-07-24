@@ -1,0 +1,45 @@
+<@controller namespace="sites::esobase::modules::stundenplan::pres::documentcontroller" class="stundenplan" @><%
+<core:addtaglib
+        namespace="tools::html"
+        prefix="html"
+        class="fallbackimport"
+        />
+
+<core:addtaglib
+        namespace="sites::esobase::modules::stundenplan::pres::taglib"
+        prefix="stundenplan"
+        class="templateimport"
+        />
+
+<html:template name="eintragKlasse">
+    <html:placeholder name="lehrer" />
+    <html:placeholder name="raum" />
+    <html:placeholder name="fach" />
+</html:template>
+<html:template name="eintragLehrer">
+    <html:placeholder name="raum" />
+    <html:placeholder name="fach" />
+    <html:placeholder name="klasse" />
+</html:template>
+<html:template name="eintragRaum">
+    <html:placeholder name="fach" />
+    <html:placeholder name="klasse" />
+    <html:placeholder name="lehrer" />
+</html:template>
+
+%><stundenplan:templateimport
+        target="klasse"
+        template="klasse"
+        /><%
+
+%><stundenplan:templateimport
+        target="lehrer"
+        template="lehrer"
+        /><%
+
+%><stundenplan:templateimport
+        target="raum"
+        template="raum"
+        /><%
+
+%><html:placeholder name="content" />

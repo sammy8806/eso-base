@@ -1,0 +1,36 @@
+<@controller namespace="sites::esobase::modules::stundenplan::pres::documentcontroller" class="weektable" @><%
+<core:addtaglib namespace="sites::esobase::modules::stundenplan::pres::taglib"
+                prefix="stundenplan"
+                class="weektable"
+        />
+<core:addtaglib namespace="extensions::htmlheader::pres::taglib" prefix="htmlheader" class="addtitle" />
+
+%><div class="center">
+    <div class="site-title">
+        Lehrer:
+        <html:placeholder name="targetName" />
+    </div>
+    <table>
+        <tr>
+            <th>Stunde</th>
+            <th>Montag</th>
+            <th>Dienstag</th>
+            <th>Mittwoch</th>
+            <th>Donnerstag</th>
+            <th>Freitag</th>
+        </tr><%
+
+        %><stundenplan:weektable>
+            <weektable:hour item1="Klasse" item2="Raum" item3="Fach" days="5" hour="1"/>
+            <weektable:hour item1="Klasse" item2="Raum" item3="Fach" days="5" hour="2"/>
+            <weektable:hour item1="Klasse" item2="Raum" item3="Fach" days="5" hour="3"/>
+            <weektable:hour item1="Klasse" item2="Raum" item3="Fach" days="5" hour="4"/>
+            <weektable:hour item1="Klasse" item2="Raum" item3="Fach" days="5" hour="5"/>
+            <weektable:hour item1="Klasse" item2="Raum" item3="Fach" days="5" hour="6"/>
+            <weektable:hour item1="Klasse" item2="Raum" item3="Fach" days="5" hour="7"/>
+            <weektable:hour item1="Klasse" item2="Raum" item3="Fach" days="5" hour="8"/>
+            <weektable:hour item1="Klasse" item2="Raum" item3="Fach" days="5" hour="9"/>
+            <weektable:hour item1="Klasse" item2="Raum" item3="Fach" days="5" hour="10"/>
+	    </stundenplan:weektable><%
+        %></table>
+</div>

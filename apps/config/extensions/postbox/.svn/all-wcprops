@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/config/extensions/postbox
+END
+EXAMPLE_Postbox_countChannelsWithoutFolder.sql
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/config/extensions/postbox/EXAMPLE_Postbox_countChannelsWithoutFolder.sql
+END
+EXAMPLE_postbox_objects.ini
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/config/extensions/postbox/EXAMPLE_postbox_objects.ini
+END
+EXAMPLE_postbox_relations.ini
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/config/extensions/postbox/EXAMPLE_postbox_relations.ini
+END
+EXAMPLE_Postbox_getChannelsWithoutFolder.sql
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/config/extensions/postbox/EXAMPLE_Postbox_getChannelsWithoutFolder.sql
+END
+EXAMPLE_MessageChannel_setReadForUser.sql
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/config/extensions/postbox/EXAMPLE_MessageChannel_setReadForUser.sql
+END
+EXAMPLE_serviceobjects.ini
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/config/extensions/postbox/EXAMPLE_serviceobjects.ini
+END
+EXAMPLE_PostboxFolder_hasUnreadMessages.sql
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/config/extensions/postbox/EXAMPLE_PostboxFolder_hasUnreadMessages.sql
+END
+EXAMPLE_postbox_domainobjects.ini
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/config/extensions/postbox/EXAMPLE_postbox_domainobjects.ini
+END

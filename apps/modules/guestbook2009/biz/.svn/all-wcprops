@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/modules/guestbook2009/biz
+END
+GuestbookModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/modules/guestbook2009/biz/GuestbookModel.php
+END
+User.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/modules/guestbook2009/biz/User.php
+END
+Guestbook.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/modules/guestbook2009/biz/Guestbook.php
+END
+Entry.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/modules/guestbook2009/biz/Entry.php
+END
+GuestbookService.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/modules/guestbook2009/biz/GuestbookService.php
+END

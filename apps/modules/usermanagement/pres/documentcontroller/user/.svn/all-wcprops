@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/adventurephpfra/!svn/ver/1621/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/user
+END
+umgt_user_delete_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/user/umgt_user_delete_controller.php
+END
+umgt_edit_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/user/umgt_edit_controller.php
+END
+umgt_user_details_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/user/umgt_user_details_controller.php
+END
+umgt_user_list_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svnroot/adventurephpfra/!svn/ver/1483/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/user/umgt_user_list_controller.php
+END
+umgt_user_add_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svnroot/adventurephpfra/!svn/ver/1614/branches/php5/1.15/modules/usermanagement/pres/documentcontroller/user/umgt_user_add_controller.php
+END

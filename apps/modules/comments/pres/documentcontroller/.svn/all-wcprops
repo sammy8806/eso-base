@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/modules/comments/pres/documentcontroller
+END
+commentBaseController.php
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/modules/comments/pres/documentcontroller/commentBaseController.php
+END
+comment_form_v1_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/modules/comments/pres/documentcontroller/comment_form_v1_controller.php
+END
+comment_listing_v1_controller.php
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svnroot/adventurephpfra/!svn/ver/1440/branches/php5/1.15/modules/comments/pres/documentcontroller/comment_listing_v1_controller.php
+END

@@ -1,0 +1,256 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; This is the central configuration file for the user management labels (login, registration, management front-end).   ;
+; Please copy and change this file in order to adapt the UI texts.                                                     ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+[de]
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; login display texts for German pages
+login.credentials.error = "Die eingegebenen Zugangsdaten sind fehlerhaft, bitte versuchen Sie es erneut."
+login.already.logged.in = "Sie sind bereits eingeloggt. <a href='?page=login&modules_usermanagement_biz-action:logout=logout:true'>Hier</a> können Sie sich ausloggen."
+login.system.error = "Login ist zur Zeit nicht möglich. Bitte versuchen Sie es zu einem späteren Zeitpunkt noch einmal."
+
+login.form.username.label = "Benutzer:"
+login.form.password.label = "Passwort:"
+login.form.button.label = "Einloggen"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; registration display texts for German pages
+register.firstname.label = "Vorname"
+register.lastname.label = "Nachname"
+register.streetandnumber.label = "Straße/Nr."
+register.zipandcity.label = "PLZ/Ort"
+register.email.label = "E-Mail *"
+register.username.label = "Benutzername *"
+register.password.label = "Passwort *"
+register.repeat.label = "Bestätigung *"
+register.button.label = "Anmelden"
+
+register.form.hint = "Bitte geben Sie folgender Daten ein um ihren Benutzer-Account zu erstellen."
+register.input.error = "Bitte füllen Sie die Pflichtfelder aus."
+register.system.error = "Bei der Registrierung ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal."
+register.success = "Ihre Anmeldung ist erfolgreich abgeschlossen. Bitte loggen Sie sich <a href='?page=login'>hier</a> ein."
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; administration front-end display labels and display texts for German pages
+
+; main page + navi
+frontend.main.title = "Benutzer-Verwaltung"
+frontend.main.navi.user.label = "Benutzer verwalten"
+frontend.main.navi.group.label = "Gruppen verwalten"
+frontend.main.navi.role.label = "Rollen verwalten"
+frontend.main.navi.permission.label = "Berechtigungen verwalten"
+frontend.main.navi.proxy.label = "Sichtbarkeiten verwalten"
+
+; user section common
+frontend.user.navi.list.label = "Benutzer-Liste"
+frontend.user.navi.add.label = "Benutzer hinzufügen"
+
+; user list section
+frontend.user.list.display-name.label = "Anzeige-Name"
+frontend.user.list.user-name.label = "Benutzer-Name"
+frontend.user.list.groups.label = "Gruppe(n)"
+frontend.user.list.roles.label = "Rolle(n)"
+frontend.user.list.actions.label = "Aktion(en)"
+
+frontend.user.list.action.details.label = "Benutzer-Details anzeigen"
+frontend.user.list.action.edit.label = "Benutzer bearbeiten"
+frontend.user.list.action.delete.label = "Benutzer löschen"
+frontend.user.list.action.add-group.label = "Benutzer zu einer Gruppe hinzufügen"
+frontend.user.list.action.remove-group.label = "Benutzer aus einer Gruppe entfernen"
+frontend.user.list.action.role-add.label = "Benutzer eine Rolle zuweisen"
+frontend.user.list.action.role-remove.label = "Benutzer eine Rolle entziehen"
+
+; add user
+frontend.user.add.headline = "Benutzer hinzufügen"
+frontend.user.add.intro.text = "Bitte füllen Sie die folgenden Felder aus:"
+
+; user details
+frontend.user.details.headline = "Details für Benutzer &quot;{display-name}&quot;"
+frontend.user.details.user-details.label = "Benutzer-Details"
+frontend.user.details.groups.label = "Gruppen"
+frontend.user.details.roles.label = "Rollen"
+frontend.user.details.objects.label = "Objekte"
+frontend.user.details.group-img.label = "Gruppe"
+frontend.user.details.role-img.label = "Rolle"
+frontend.user.details.proxy-img.label = "Sichtbarkeits-Berechtigung"
+
+frontend.user.details.app-obj-id.label = "Id des Applikationsobjekts: "
+frontend.user.details.proxy-id.label = "| Id der Definition: "
+frontend.user.details.permissions.label = "| Berechtigungen (lesen/schreiben/verknüpfen/löschen): "
+
+; edit user
+frontend.user.edit.headline = "Benutzer bearbeiten"
+frontend.user.edit.intro.text = "Bitte füllen Sie die folgenden Felder aus:"
+frontend.user.edit.form.first-name.label = "Vorname"
+frontend.user.edit.form.last-name.label = "Nachname"
+frontend.user.edit.form.street-name.label = "Straße"
+frontend.user.edit.form.street-number.label = "Hausnummer"
+frontend.user.edit.form.zip.label = "PLZ"
+frontend.user.edit.form.city.label = "Stadt"
+frontend.user.edit.form.email.label = "E-Mail"
+frontend.user.edit.form.mobile.label = "Mobil"
+frontend.user.edit.form.user-name.label = "Benutzer-Name"
+frontend.user.edit.form.password.label = "Passwort"
+frontend.user.edit.form.repeat.label = "Passwort-Wiederholung"
+frontend.user.edit.form.button.label = "Speichern"
+
+; delete user
+frontend.user.delete.headline = "Benutzer löschen"
+frontend.user.delete.confirmation.text = "Soll der Benutzer <strong>{display-name}</strong> wirklich gelöscht werden?"
+frontend.user.delete.button-no.label = "Nein"
+frontend.user.delete.button-yes.label = "Ja"
+
+; add user to group(s)
+frontend.user.add-user-to-group.headline = "Benutzer zu Gruppe(n) hinzufügen"
+frontend.user.add-user-to-group.intro.text = "Bitte wählen Sie eine oder mehrere Gruppe(n):"
+frontend.user.add-user-to-group.button.label = "Hinzufügen"
+frontend.user.add-user-to-group.message.1 = "Es sind bereits alle Gruppen zu Benutzer <strong>{display-name}</strong> zugewiesen!"
+frontend.user.add-user-to-group.message.2 = "Bitte klicken Sie <a href="{user-view-link}">hier</a> um zur Benutzer-Übersicht zu gelangen."
+
+; remove user from group(s)
+frontend.user.remove-user-from-group.headline = "Benutzer aus Gruppe(n) entfernen"
+frontend.user.remove-user-from-group.intro.text = "Bitte wählen Sie eine oder mehrere Gruppe(n):"
+frontend.user.remove-user-from-group.button.label = "Entfernen"
+frontend.user.remove-user-from-group.message.1 = "Der Benutzer <strong>{display-name}</strong> ist im Moment keiner Gruppe zugeordnet!"
+frontend.user.remove-user-from-group.message.2 = "Bitte klicken Sie <a href="{user-view-link}">hier</a> um zur Benutzer-Übersicht zu gelangen."
+
+; add user to role(s)
+frontend.user.add-user-to-role.headline = "Benutzer zu Rolle(n) zuweisen"
+frontend.user.add-user-to-role.intro.text = "Bitte wählen Sie eine oder mehrere Rolle(n):"
+frontend.user.add-user-to-role.button.label = "Zuweisen"
+frontend.user.add-user-to-role.message.1 = "Der Benutzer <strong>{display-name}</strong> hat bereits alle Rollen inne!"
+frontend.user.add-user-to-role.message.2 = "Bitte klicken Sie <a href="{user-view-link}">hier</a> um zur Benutzer-Übersicht zu gelangen."
+
+; remove user from role(s)
+frontend.user.remove-user-from-role.headline = "Benutzer Role(n) entziehen"
+frontend.user.remove-user-from-role.intro.text = "Bitte wählen Sie eine oder mehrere Rolle(n):"
+frontend.user.remove-user-from-role.button.label = "Entziehen"
+frontend.user.remove-user-from-role.message.1 = "Der Benutzer <strong>{display-name}</strong> hat aktuell keine Rollen inne!"
+frontend.user.remove-user-from-role.message.2 = "Bitte klicken Sie <a href="{user-view-link}">hier</a> um zur Benutzer-Übersicht zu gelangen."
+
+[en]
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; login display texts for English pages
+login.credentials.error = "The given credentials are erroneous, please try again."
+login.already.logged.in = "You are logged-in. Please click <a href='?page=login&modules_usermanagement_biz-action:logout=logout:true'>here</a> to log out."
+login.system.error = "Login is not possible at the moment. Please come back again later."
+
+login.form.username.label = "User name:"
+login.form.password.label = "Password:"
+login.form.button.label = "Login"
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; registration display texts for English pages
+register.firstname.label = "Firstname"
+register.lastname.label = "Lastname"
+register.streetandnumber.label = "Street/No."
+register.zipandcity.label = "Zip/City"
+register.email.label = "Email *"
+register.username.label = "Username *"
+register.password.label = "Password *"
+register.repeat.label = "Confirm password *"
+register.button.label = "Register"
+
+register.form.hint = "Please provide the required data to create your user account."
+register.input.error = "Please fill in the required fields."
+register.system.error = "Your registration cannot be completed at the moment. Please try again later."
+register.success = "Your registration is complete. Please login in <a href='?page=login'>here</a>."
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; administration front-end display labels and display texts for English pages
+
+; main page + navi
+frontend.main.title = "User management front-end"
+frontend.main.navi.user.label = "Manage users"
+frontend.main.navi.group.label = "Manage groups"
+frontend.main.navi.role.label = "Manage roles"
+frontend.main.navi.permission.label = "Manage permissions"
+frontend.main.navi.proxy.label = "Manage visibility"
+
+; user section common
+frontend.user.navi.list.label = "User list"
+frontend.user.navi.add.label = "Add user"
+
+; user list section
+frontend.user.list.display-name.label = "Display name"
+frontend.user.list.user-name.label = "User name"
+frontend.user.list.groups.label = "Group(s)"
+frontend.user.list.roles.label = "Role(s)"
+frontend.user.list.actions.label = "Action(s)"
+
+frontend.user.list.action.details.label = "View user details"
+frontend.user.list.action.edit.label = "Edit User"
+frontend.user.list.action.delete.label = "Delete User"
+frontend.user.list.action.add-group.label = "Add user to group"
+frontend.user.list.action.remove-group.label = "Remove user from group"
+frontend.user.list.action.role-add.label = "Assign role to user"
+frontend.user.list.action.role-remove.label = "Remove role from user"
+
+; add user
+frontend.user.add.headline = "Add user"
+frontend.user.add.intro.text = "Please fill in the following fields:"
+
+; user details
+frontend.user.details.headline = "Details for user &quot;{display-name}&quot;"
+frontend.user.details.user-details.label = "User details"
+frontend.user.details.groups.label = "Groups"
+frontend.user.details.roles.label = "Roles"
+frontend.user.details.objects.label = "Objects"
+frontend.user.details.group-img.label = "Group"
+frontend.user.details.role-img.label = "Role"
+frontend.user.details.proxy-img.label = "Visibility definition"
+
+frontend.user.details.app-obj-id.label = "App object id: "
+frontend.user.details.proxy-id.label = "| definition id: "
+frontend.user.details.permissions.label = "| permissions (r/w/l/d): "
+
+; edit user
+frontend.user.edit.headline = "Edit user"
+frontend.user.edit.intro.text = "Please edit in the following fields:"
+frontend.user.edit.form.first-name.label = "First name"
+frontend.user.edit.form.last-name.label = "Last name"
+frontend.user.edit.form.street-name.label = "Street name"
+frontend.user.edit.form.street-number.label = "Street number"
+frontend.user.edit.form.zip.label = "ZIP code"
+frontend.user.edit.form.city.label = "City"
+frontend.user.edit.form.email.label = "Email"
+frontend.user.edit.form.mobile.label = "Cell phone"
+frontend.user.edit.form.user-name.label = "User name"
+frontend.user.edit.form.password.label = "Password"
+frontend.user.edit.form.repeat.label = "Password again"
+frontend.user.edit.form.button.label = "Send"
+
+; delete user
+frontend.user.delete.headline = "Delete user"
+frontend.user.delete.confirmation.text = "Should the user <strong>{display-name}</strong> really be deleted?"
+frontend.user.delete.button-no.label = "No"
+frontend.user.delete.button-yes.label = "Yes"
+
+; add user to group(s)
+frontend.user.add-user-to-group.headline = "Add user to group(s)"
+frontend.user.add-user-to-group.intro.text = "Please choose one or more of the following groups:"
+frontend.user.add-user-to-group.button.label = "Add"
+frontend.user.add-user-to-group.message.1 = "All groups are already assigned to user <strong>{display-name}</strong>!"
+frontend.user.add-user-to-group.message.2 = "To go back to the main view, please click <a href="{user-view-link}">here</a>."
+
+; remove user from group(s)
+frontend.user.remove-user-from-group.headline = "Remove user from groups"
+frontend.user.remove-user-from-group.intro.text = "Please choose one or more of the following groups:"
+frontend.user.remove-user-from-group.button.label = "Remove"
+frontend.user.remove-user-from-group.message.1 = "User <strong>{display-name}</strong> has no groups assigned at the moment!"
+frontend.user.remove-user-from-group.message.2 = "To go back to the main view, please click <a href="{user-view-link}">here</a>."
+
+; add user to role(s)
+frontend.user.add-user-to-role.headline = "Add user to role(s)"
+frontend.user.add-user-to-role.intro.text = "Please choose one or more of the following roles:"
+frontend.user.add-user-to-role.button.label = "Assign"
+frontend.user.add-user-to-role.message.1 = "All roles are already assigned to user <strong>{display-name}</strong>!"
+frontend.user.add-user-to-role.message.2 = "To go back to the main view, please click <a href="{user-view-link}">here</a>."
+
+; remove user from role(s)
+frontend.user.remove-user-from-role.headline = "Remove role(s) from user"
+frontend.user.remove-user-from-role.intro.text = "Please choose one or more of the following roles:"
+frontend.user.remove-user-from-role.button.label = "Remove"
+frontend.user.remove-user-from-role.message.1 = "User <strong>{display-name}</strong> has no roles assigned at the moment!"
+frontend.user.remove-user-from-role.message.2 = "To go back to the main view, please click <a href="{user-view-link}">here</a>."

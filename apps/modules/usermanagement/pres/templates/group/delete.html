@@ -1,0 +1,34 @@
+<@controller
+   namespace="modules::usermanagement::pres::documentcontroller::group"
+   class="umgt_group_delete_controller"
+@>
+<h3><html:getstring
+      namespace="modules::usermanagement::pres"
+      config="labels.ini"
+      entry="frontend.group.delete.headline"
+      /></h3>
+<p>
+   <html:getstring
+      name="display-name"
+      namespace="modules::usermanagement::pres"
+      config="labels.ini"
+      entry="frontend.group.delete.confirmation.text"/>
+
+</p>
+<core:addtaglib namespace="tools::form::taglib" prefix="html" class="form" />
+<html:form name="GroupDelNo" method="post">
+  <form:button name="No" value="No">
+     <button:getstring
+        namespace="modules::usermanagement::pres"
+        config="labels.ini"
+        entry="frontend.group.delete.button-no.label"/>
+  </form:button>
+</html:form>
+<html:form name="GroupDelYes" method="post">
+  <form:button name="Yes" value="Yes">
+     <button:getstring
+        namespace="modules::usermanagement::pres"
+        config="labels.ini"
+        entry="frontend.group.delete.button-yes.label"/>
+  </form:button>
+</html:form>

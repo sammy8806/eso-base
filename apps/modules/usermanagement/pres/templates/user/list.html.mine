@@ -1,0 +1,63 @@
+<@controller
+   namespace="modules::usermanagement::pres::documentcontroller::user"
+   class="umgt_user_list_controller"
+@>
+<table class="vis-def">
+   <thead>
+      <tr>
+         <td>&nbsp;</td>
+         <td>Display name</td>
+         <td>User name</td>
+         <td>Group(s)</td>
+         <td>Role(s)</td>
+         <td>Action(s)</td>
+      </tr>
+   </thead>
+   <tbody>
+      <html:placeholder name="UserList"/>
+   </tbody>
+</table>
+
+<html:template name="User">
+   <template:addtaglib namespace="modules::usermanagement::pres::taglib" prefix="umgt" class="media"/>
+   <tr>
+      <td>
+         <umgt:media filename="user.png" title="View user details" alt="View User Details"/>
+      </td>
+      <td>
+         <template:placeholder name="DisplayName"/>
+      </td>
+      <td>
+         <template:placeholder name="Username"/>
+      </td>
+      <td>
+         <template:placeholder name="Groups"/>
+      </td>
+      <td>
+         <template:placeholder name="Roles"/>
+      </td>
+      <td class="actions">
+         <a href="<template:placeholder name=" LinkUserDetails" />">
+            <umgt:media filename="details.png" title="View user details" />
+         </a>
+         <a href="<template:placeholder name=" LinkUserEdit" />">
+            <umgt:media filename="edit.png" title="Edit User" />
+         </a>
+         <a href="<template:placeholder name=" LinkUserDelete" />">
+            <umgt:media filename="delete.png" title="Delete User" />
+         </a>
+         <a href="<template:placeholder name="AddUserToGroup" />">
+            <umgt:media filename="add_group.png" title="Add user to group"/>
+         </a>
+         <a href="<template:placeholder name="RemoveUserFromGroup" />">
+            <umgt:media filename="remove_group.png" title="Remove user from group"/>
+         </a>
+         <a href="<template:placeholder name="AssignRoleToUser" />">
+            <umgt:media filename="role_add.png" title="Assign role to user" />
+         </a>
+         <a href="<template:placeholder name="RemoveRoleFromUser" />">
+            <umgt:media filename="role_remove.png" title="Remove role from user" />
+         </a>
+      </td>
+   </tr>
+</html:template>

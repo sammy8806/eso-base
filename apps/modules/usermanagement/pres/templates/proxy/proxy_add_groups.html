@@ -1,0 +1,62 @@
+<@controller
+   namespace="modules::usermanagement::pres::documentcontroller::proxy"
+   class="umgt_proxy_add_groups_controller"
+@>
+<core:addtaglib namespace="tools::form::taglib" prefix="html" class="form" />
+<h3><html:getstring
+       namespace="modules::usermanagement::pres"
+       config="labels.ini"
+       entry="frontend.proxy.add-groups-to-proxy.headline"/></h3>
+
+<html:form name="add_perm" method="post">
+   <p>
+      <form:getstring
+         name="intro-text"
+         namespace="modules::usermanagement::pres"
+         config="labels.ini"
+         entry="frontend.proxy.add-groups-to-proxy.intro.text"/>
+   </p>
+   <form:listener control="groups">
+      <div class="error-cont">
+         <listener:getstring
+            namespace="modules::usermanagement::pres"
+            config="labels.ini"
+            entry="frontend.proxy.add-groups-to-proxy.validator.message"/>
+      </div>
+   </form:listener>
+   <div>
+      <label for="groups"><form:getstring
+         namespace="modules::usermanagement::pres"
+         config="labels.ini"
+         entry="frontend.proxy.add-groups-to-proxy.groups.label"/></label>
+      <form:multiselect id="groups" name="groups" size="6"/>
+   </div>
+   <form:addvalidator
+      class="MultiSelectFieldValidator"
+      control="groups"
+      button="add"
+   />
+   <form:button name="add">
+      <html:getstring
+          namespace="modules::usermanagement::pres"
+          config="labels.ini"
+          entry="frontend.proxy.add-groups-to-proxy.button.label"/>
+   </form:button>
+   <form:hidden name="proxyid" />
+</html:form>
+<html:template name="NoMoreGroups">
+   <p>
+      <template:getstring
+            name="message-1"
+            namespace="modules::usermanagement::pres"
+            config="labels.ini"
+            entry="frontend.proxy.add-groups-to-proxy.message.1"/>
+   </p>
+   <p>
+      <template:getstring
+            name="message-2"
+            namespace="modules::usermanagement::pres"
+            config="labels.ini"
+            entry="frontend.proxy.add-groups-to-proxy.message.2"/>
+   </p>
+</html:template>
